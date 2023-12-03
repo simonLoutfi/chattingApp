@@ -1,0 +1,105 @@
+ul.head{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    
+    width: 100%;
+    z-index: 10;
+    
+}
+li.navBar a{
+    float: left;
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right: solid grey;
+    
+}
+li.navBar a:hover{
+    background-color: grey;
+}
+#contact{
+    float: right;
+    border-left: solid grey;
+}
+#logo{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100px;
+    z-index: 10;
+}
+#logo:hover{
+    
+    opacity: 0.2;
+}
+p.def{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+ol {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+p.quiz{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+table#morsetab{
+    margin: 30px;
+    display: none;
+    width: 30%;
+    background-color: whitesmoke;
+}
+#hidebutt{
+    display: none;
+}
+p.translator{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.morsechar{
+    position: relative;
+    margin-top: 50px;
+}
+body {
+    background-image: linear-gradient(to bottom right, #F0DB3C, #098A44);
+  }
+.char{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+button{
+    background-color: orange;
+    width: 300px;
+    height: 75px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: 700;
+    border-radius: 25px;
+}
+button:hover{
+    cursor:pointer;
+}
+input{
+    border: double 10px;
+    margin-top: 5px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+textarea{
+    width: 40%;
+    height: 100px;
+    border: groove 8px ;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

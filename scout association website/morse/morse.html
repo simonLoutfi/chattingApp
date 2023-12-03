@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Morse</title>
+    <link rel="stylesheet" href="morse.css">
+    <script type="text/javascript" src="morse.js">
+      
+    
+
+    </script>
+</head>
+<body>
+    <ul class="head">
+        <li class="navBar"><a href="C:\Users\PC\Desktop\scout association website\home.html">Home</a></li>
+        <li class="navBar"><a href="C:\Users\PC\Desktop\scout association website\about us\aboutUs.html">About Us</a></li>
+        <li class="navBar"><a href="C:\Users\PC\Desktop\scout association website\baden powell\badenPowel.html">Baden Powel</a></li>
+        <li class="navBar"><a href="morse.html">Morse Code</a></li>
+        <li class="navBar" id="contact"><a href="C:\Users\PC\Desktop\scout association website\joinUs\joinUs.html">Join Us</a></li>     
+    </ul>
+    <img src="logo.jpg" id="logo">
+    <p class="def">
+        
+        <br> 
+        <b class="morsechar">Morse characters:</b><br>
+        <ol type="I">
+            <li>Dash  -</li>
+            <li>Dot   .</li>
+            <li>Space ==  Letter separator</li>
+            <li>/ ==  word sepprator</li>
+        </ol>
+    </p>    
+    <table border="2px" id="morsetab">
+        <thead>
+            <th>Letter</th>
+            <th>Morse</th>
+            <th>Number</th>
+            <th>Morse</th>
+            <th>Character</th>
+            <th>Morse</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>A</td>
+                <td>.-</td>
+                <td>1</td>
+                <td>.----</td>
+                <td>.</td>
+                <td>.-.-.-</td>
+            </tr>
+            <tr>
+                <td>B</td>
+                <td>-...</td>
+                <td>2</td>
+                <td>..---</td>
+                <td>,</td>
+                <td>--..--</td>
+            </tr>
+            <tr>
+                <td>C</td>
+                <td>-.-.</td>
+                <td>3</td>
+                <td>...--</td>
+                <td>?</td>
+                <td>..--..</td>
+            </tr>
+            <tr>
+                <td>D</td>
+                <td>-..</td>
+                <td>4</td>
+                <td>....-</td>
+            </tr>
+            <tr>
+                <td>E</td>
+                <td>.</td>
+                <td>5</td>
+                <td>.....</td>
+            </tr>
+            <tr>
+                <td>F</td>
+                <td>..-.</td>
+                <td>6</td>
+                <td>-...</td>
+            </tr>
+            <tr>
+                <td>G</td>
+                <td>--.</td>
+                <td>7</td>
+                <td>--...</td>
+            </tr>
+            <tr>
+                <td>H</td>
+                <td>....</td>
+                <td>8</td>
+                <td>---..</td>
+            </tr>
+            <tr>
+                <td>I</td>
+                <td>..</td>
+                <td>9</td>
+                <td>----.</td>
+            </tr>
+            <tr>
+                <td>J</td>
+                <td>.---</td>
+                <td>0</td>
+                <td>-----</td>
+            </tr>
+            <tr>
+                <td>K</td>
+                <td>-.-</td>
+            </tr>
+            <tr>
+                <td>L</td>
+                <td>.-..</td>
+            </tr>
+            <tr>
+                <td>M</td>
+                <td>--</td>
+            </tr>
+            <tr>
+                <td>N</td>
+                <td>-.</td>
+            </tr>
+            <tr>
+                <td>O</td>
+                <td>---</td>
+            </tr>
+            <tr>
+                <td>P</td>
+                <td>.--.</td>
+            </tr>
+            <tr>
+                <td>R</td>
+                <td>.-.</td>
+            </tr>
+            <tr>
+                <td>S</td>
+                <td>...</td>
+            </tr>
+            <tr>
+                <td>T</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>U</td>
+                <td>..-</td>
+            </tr>
+            <tr>
+                <td>V</td>
+                <td>...-</td>
+            </tr>
+            <tr>
+                <td>W</td>
+                <td>.--</td>
+            </tr>
+            <tr>
+                <td>X</td>
+                <td>-..-</td>
+            </tr>
+            <tr>
+                <td>Y</td>
+                <td>-.--</td>
+            </tr>
+            <tr>
+                <td>Z</td>
+                <td>--..</td>
+            </tr>
+        </tbody>
+    </table>
+    <button id="showbutt" onclick="showtab()">Show Morse table</button>
+    <button id="hidebutt" onclick="hidetab()">Hide Morse table</button>
+    <h1>Morse Code Checker</h1>
+    <form>
+      <label for="character" class="char">Enter a character:</label>
+      <input type="text" id="character" onclick="hidetab()">
+      <br>
+      <label for="morse-code" class="char">Enter its Morse code:</label>
+      <input type="text" id="morse-code" onclick="hidetab()">
+      <br><br>
+      <button type="button" onclick="checkMorse()">Check Morse Code</button><br><br>
+      <textarea rows=4 cols=40 id="result"></textarea>
+    </form>
+    <h1>Morse Code Converter</h1>
+    <form>
+      <label for="word" class="char">Enter a word:</label>
+      <input type="text" id="word">
+      <br><br>
+      <button type="button" onclick="convertToMorse()">Convert to Morse Code</button>
+    </form>
+    <br><br><textarea rows=4 cols=40 id="result1"></textarea>
+    
+    
+    
+</body>
+</html>

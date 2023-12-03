@@ -1,0 +1,104 @@
+img.camping{
+    width: 1250px;
+    height: 400px;
+    
+}
+h1{
+    position: absolute;
+    top: 280px;
+    left: 35%;
+    font-size: 70px;
+    font-weight: 800;
+}
+ul.head{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:  black;
+    position:fixed;
+    width: 100%;
+   z-index: 10;
+}
+li.navBar a{
+    float: left;
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right: solid grey;
+    z-index: 3;
+   
+    
+}
+li.navBar a:hover{
+    background-color: grey;
+}
+#contact{
+    float: right;
+    border-left: solid grey;
+}
+
+p.firstparag{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 400;
+    border: double;
+    border-radius: 25px;
+    background-color: aliceblue;
+}
+img.logo{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100px;
+    z-index: 10;
+}
+img.logo:hover{
+    
+    opacity: 0.2;
+}
+span.year{
+    border-bottom: solid black;
+    padding: 10px;
+}
+p.paragtwo{
+    font-size: 35px ;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+h4,ul.two {
+    font-size: 25px;
+    font-family: sans-serif;
+}
+p.paragtwo{
+    font-size: 35px ;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+img.aurevoir{
+    width: 40%;
+    height: 40%;
+    position: relative;
+    top: -350px;
+}
+h4.change{
+    position: absolute;
+    left: 42%;
+}
+ul.three{
+    width: 50%;
+    position: relative;
+    left: 40% ;
+    top: 90px;
+    font-size: 25px;
+}
+img.beginning{
+    width: 40%;
+
+}
+#up {
+    position: relative;
+    top:-350px;
+}

@@ -1,0 +1,158 @@
+ul.head{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    position:fixed;
+    width: 100%;
+    z-index: 10;
+   
+}
+li.navBar a{
+    float: left;
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right: solid grey;
+    
+}
+li.navBar a:hover{
+    background-color: grey;
+}
+#contact{
+    float: right;
+    border-left: solid grey;
+}
+h1{
+    position: absolute;
+    left: 27%;
+    margin-top: 50px;
+}
+img.one, img.two{
+    width: 35%;
+    position: relative;
+    top: 110px;
+    display: inline-block;
+    border-radius: 50%;
+    border: solid;
+}
+img.two,img.four{
+    float: right;
+}
+div.first{
+    width: 50%;
+    position: relative;
+    top: 100px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div.second{
+    width: 50%;
+    position: relative;
+    float: right;
+    top: -390px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+img.three,img.four{
+    width: 90%;
+    border-radius: 50%;
+    border: solid;
+}
+img.four{
+    position: relative;
+    top: -525px;
+}
+
+div.column{
+    position: relative;
+    float: left;
+    width: 300px;
+    top: 200px;
+    width: 50%;
+}
+div.third{
+    
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div.fourth{
+    position: relative;
+    top: -510px;
+    font-size: 25px;
+}
+
+img.five,img.six{
+    width: 90%;
+    border-radius: 50%;
+    border: solid;
+}
+div.row1{
+    position: relative;
+    top: -300px;
+}
+
+
+div.column1{
+    position: relative;
+    float: left;
+    width: 300px;
+    top: 200px;
+    width: 50%;
+}
+div.fifth{
+    
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div.sixth{
+    
+    font-size: 25px;
+}
+p.try{
+    position: absolute;
+    background-color: blanchedalmond;
+    width: 400px;
+    height: 150px;
+    font-size: 25px;
+    font-weight: 800;
+    top: 3600px;
+    left: 300px;
+    
+}
+p.try span{
+    border-top: solid green;
+}
+#logo{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100px;
+    z-index: 10;
+}
+#logo:hover{
+    
+    opacity: 0.2;
+}
+button.bpmsg{
+    position: relative;
+    top: 150px;
+    left: 90px;
+    width: 300px;
+    height: 100px;
+    background-color:bisque;
+    font-size: 30px;
+    border-radius:25px ;
+
+}
+button.bpmsg a{
+    text-decoration: none;
+    color: blue;
+}
